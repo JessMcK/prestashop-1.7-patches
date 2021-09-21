@@ -49,4 +49,4 @@ Perhaps you're not able to get 'Tax Included' prices and/or labels to show up on
 2) Click `Edit` on each of the customer groups that need to see the tax prices, and change `Price display method` to `Tax included` (the actual text option may differ depending on the shop language and translations selected).
 3) Download the `product-prices.tpl`.
 5) Place the downloaded file in `[your_current_theme_name]/templates/catalog/_partials/`. (You may need to create these folders yourself if they don't already exist). 
-6) If you ever want to revert to the old display, switch to `Tax excluded` in the Customer Groups, delete the `product-prices.tpl` that you added, and all should work. (Alternatively, you may need to open it, and paste in the code from the `product-prices-original-code.txt` that I've provided).
+6) If you ever want to revert to the old display, switch to `Tax excluded` in the Customer Groups, delete the `product-prices.tpl` that you added, and all should work. (OR, alternatively, you may need to open the `product-prices.tpl`, and paste in the code from the `product-prices-original-code.txt` that I've provided).
