@@ -1,4 +1,4 @@
-# prestashop-1.7-patches
+# Prestashop 1.7 "patches"
 Various file "patches", tips, &amp; tricks that I've found for Prestashop 1.7. I'm not a professional Prestashop developer; these were simply a few fiddly things that I found while developing a client project. I've described them below and listed any (possibly temporary) fixes that I've found.
 
 ### Issue 1: Parent-child theme asset inheritance ###
@@ -6,7 +6,7 @@ Once a child theme is applied, it seems most of the js and css assets aren't car
 
 https://www.prestashop.com/forums/topic/1031790-child-theme-doesnt-load-parent-assets/
 
-### Issue 1: Product combinations
+### Issue 2: Product combinations
 Hoo boy, once you add combinations in Prestashop 1.7, there's a few fiddly things that go wrong.
 
 **Fix for: Quantity input field not updating when switching between combinations**
@@ -42,7 +42,7 @@ js:
 
 Hopefully this fixes the issue! There's a slight delay while the product prices refresh but it's minimal.
 
-### Issue: 'Tax included' labels
+### Issue 3: 'Tax included' labels
 Perhaps you're not able to get 'Tax Included' prices and/or labels to show up on your site, even when you have tax applied to a product in the Prestashop backend. Here's the fix:
 
 1) In the Admin dashboard, go to `Shop Parameters → Customer Settings → Groups`.
